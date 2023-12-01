@@ -1,0 +1,24 @@
+version: '3'
+services:
+  ganache:
+    image: trufflesuite/ganache-cli
+    ports:
+      - "127.0.0.1:8545:8545"
+
+  truffle-migrate:
+    build:
+      context: .
+      dockerfile: Dockerfile.truffle
+    ports:
+      - "127.0.0.1:8545:8545"
+    depends_on:
+      - ganache
+
+  streamlit-app:
+    build:
+      context: .
+      dockerfile: Dockerfile.streamlit
+    ports:
+      - "8501:8501"
+    depends_on:
+      - truffle-migrate
