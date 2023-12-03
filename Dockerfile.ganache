@@ -2,4 +2,4 @@ FROM node:16
 WORKDIR /app
 RUN npm install -g ganache-cli
 RUN npm install -g truffle
-CMD ["bash", "-c", "ganache-cli & sleep 10 && truffle migrate"]
+CMD ["bash", "-c", "ganache-cli & sleep 10 && truffle migrate && tail -f /dev/null"]
