@@ -1,0 +1,4 @@
+.vscode
+.git
+.gitignore
+deployment_config.json
