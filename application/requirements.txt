@@ -1,9 +1,9 @@
 pdfplumber==0.10.3
 Pillow==10.1.0
-Pyrebase
+Pyrebase4==4.7.1
 python-dotenv==1.0.0
 reportlab==4.0.7
-requests==2.31.0
+requests==2.29.0
 streamlit==1.28.2
 streamlit_extras==0.3.5
 web3==5.24.0
