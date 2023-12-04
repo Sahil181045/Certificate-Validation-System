@@ -4,7 +4,7 @@ from pathlib import Path
 from web3 import Web3
 
 # Connect to a local Ethereum node
-w3 = Web3(Web3.HTTPProvider('http://127.0.0.1:8545'))
+w3 = Web3(Web3.HTTPProvider('http://ganache:8545'))
 
 def get_contract_abi():
     current_dir = os.path.dirname(__file__)
