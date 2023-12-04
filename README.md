@@ -38,13 +38,13 @@ You can run the project either through:
 
 ### Prerequisites
 
-- **Node version >= 21.0.0**
+- **Node version >= 21.0.0**  
 Truffle requires node version 16 or higher. The node version on my machine on which I tested this project was 21.0.0. You can try a lower node version (>=16.0).
 
-- **Python version >= 3.9.10**
+- **Python version >= 3.9.10**  
     Python version 3.9.10 or higher is recommended but other versions may also work.
 
-- **Globally installed packages for Truffle and Ganache-cli**
+- **Globally installed packages for Truffle and Ganache-cli**  
 
     ```sh
     npm install -g truffle
@@ -53,14 +53,14 @@ Truffle requires node version 16 or higher. The node version on my machine on wh
     npm install -g ganache-cli
     ```
 
-- **Python packages**
+- **Python packages**  
     In the project's root directory, exececute the command:
     ```sh
     pip install -r application/requirements.txt
     ```
     It is recommended to create a virtual environment and then install the requirements and run the streamlit application in that virtual environment.
 
-- **Firebase project setup**
+- **Firebase project setup**  
     Create a project on [Firebase Console](https://console.firebase.google.com/). This will be used to setup an authentication service in the project. Enable email/password sign in method under Authentication in the Build section.
     Go to project settings. Add new app. Note the following details in a .env file inside the project's root directory.
     ```sh
@@ -73,10 +73,10 @@ Truffle requires node version 16 or higher. The node version on my machine on wh
     FIREBASE_APP_ID
     ```
 
-- **Pinata account setup**
+- **Pinata account setup**  
     Create an account on [Pinata](https://app.pinata.cloud/). Go to the API keys section and generate a new key. Note the API key and secret key in .env file.
 
-- **.env file**
+- **.env file**  
     Finally your .env file should contain the following things:
 
     ```sh
