@@ -3,4 +3,4 @@
 .git
 .gitignore
 deployment_config.json
-/build/
+build/
