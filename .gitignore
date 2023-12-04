@@ -2,4 +2,4 @@
 .env
 .vscode
 deployment_config.json
-build
+/build/
