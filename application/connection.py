@@ -1,5 +1,4 @@
 import json
-import os
 from pathlib import Path
 from web3 import Web3
 
@@ -7,7 +6,6 @@ from web3 import Web3
 w3 = Web3(Web3.HTTPProvider('http://ganache:8545'))
 
 def get_contract_abi():
-    current_dir = os.path.dirname(__file__)
     certification_json_path = Path('../build/contracts/Certification.json')
 
     try:
