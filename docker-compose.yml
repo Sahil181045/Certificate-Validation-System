@@ -1,18 +1,14 @@
 version: '3'
 services:
   ganache:
-    build:
-      context: .
-      dockerfile: Dockerfile.ganache
+    image: sahil1810/cvs-ganache
     ports:
       - "8545:8545"
     volumes:
       - blockchain_data:/app
 
   streamlit-app:
-    build:
-      context: .
-      dockerfile: Dockerfile.streamlit
+    image: sahil1810/cvs-streamlitapp
     ports:
       - "8501:8501"
     depends_on:
