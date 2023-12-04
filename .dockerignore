@@ -1,4 +1,6 @@
+**/__pycache__/
 .vscode
 .git
 .gitignore
 deployment_config.json
+build
