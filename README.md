@@ -34,9 +34,9 @@ You can run the project either through:
 
 ---
 
-### Local Setup
+## Local Setup
 
-#### Prerequisites
+### Prerequisites
 
 - **Node version >= 21.0.0**
 Truffle requires node version 16 or higher. The node version on my machine on which I tested this project was 21.0.0. You can try a lower node version (>=16.0).
@@ -94,7 +94,7 @@ Truffle requires node version 16 or higher. The node version on my machine on wh
     ```
     Note: This institute email and password in the .env file will be used to login as Institute inside the app.
 
-#### Running the project
+### Running the project
 
 1. Open a terminal anywhere and start the Ganache blockchain.
     ```
@@ -123,14 +123,14 @@ Truffle requires node version 16 or higher. The node version on my machine on wh
 ---
 
 
-### Using Docker
+## Using Docker
 
-#### Prerequisites
+### Prerequisites
 
 - **Docker** 
 You can either download [Docker Desktop](https://www.docker.com/products/docker-desktop/) for Windows/Mac/Linux or on Linux you can install the docker package via a package manager.
 
-#### Running the project
+### Running the project
 
 1. Start the Docker engine by running the Docker Desktop application.
 
