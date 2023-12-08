@@ -2,6 +2,10 @@
 
 ---
 
+You can read my article on [Medium](https://medium.com/@sahilkadam257/certificate-validation-using-blockchain-3c560fd1738c) to get a better overall understanding of this project.
+
+---
+
 ## Introduction
 
 This project provides a Blockchain based solution for generating and verifying digital certificates. The certificate information (uid, candidate_name, course_name, org_name, ipfs_hash) is stored on the blockchain. First, the certificate pdf is generated and stored onto IPFS using Pinata service. Then, the IPFS hash obtained is stored on the blockchain along with other information.
