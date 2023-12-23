@@ -178,7 +178,7 @@ You can either download [Docker Desktop](https://www.docker.com/products/docker-
 
 ---
 
-## Application Screenshots:
+## Application Screenshots
 
 ![Home page](https://github.com/Sahil181045/Certificate-Validation-System/assets/115214968/b808b951-0e1d-479f-a891-621f0fbb374c)
 <p align="center"><em>Home Page</em></p>
