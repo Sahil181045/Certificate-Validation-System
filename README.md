@@ -181,16 +181,28 @@ You can either download [Docker Desktop](https://www.docker.com/products/docker-
 ## Application Screenshots:
 
 ![Home page](https://github.com/Sahil181045/Certificate-Validation-System/assets/115214968/b808b951-0e1d-479f-a891-621f0fbb374c)
+<p align="center"><em>Home Page</em></p>
+<br></br>
 
 ![Login page](https://github.com/Sahil181045/Certificate-Validation-System/assets/115214968/24854c98-9bc3-47eb-a84d-11cf7547812e)
+<p align="center"><em>Login Page</em></p>
+<br></br>
 
 ![Generate Certificate Page](https://github.com/Sahil181045/Certificate-Validation-System/assets/115214968/20b1459c-b5f6-4166-8403-d03b247c061f)
+<p align="center"><em>Generate Certificate Page</em></p>
+<br></br>
 
 ![View Certificate Page](https://github.com/Sahil181045/Certificate-Validation-System/assets/115214968/fca1a552-5a2d-4870-b9d9-5589da7d1fe4)
+<p align="center"><em>View Certificate Page</em></p>
+<br></br>
 
 ![Verify Certificate using Certificate ID](https://github.com/Sahil181045/Certificate-Validation-System/assets/115214968/cd1e91f1-61d8-439b-a486-07a9147d714f)
+<p align="center"><em>Verify Certificate using Certificate ID</em></p>
+<br></br>
 
 ![Verify Certificate using Certificate PDF](https://github.com/Sahil181045/Certificate-Validation-System/assets/115214968/11dc4300-3601-4f15-a801-53134e1756fd)
+<p align="center"><em>Verify Certificate using Certificate PDF</em></p>
+<br></br>
 
 ---
 
